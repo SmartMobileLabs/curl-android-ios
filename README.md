@@ -20,12 +20,12 @@ xcode-select --install
 ```
 
 ## Building for Android:
-* Download Android NDK
-```
-cd curl-android-ios/curl-compile-scripts
-export NDK_ROOT=PATH_WHERE_NDK_IS
-./build_Android.sh
-```
+This project is not used anymore for Android - although the prebuilt libraries are still stored
+within this project. A special docker container is used for building the more recent versions
+of openssl and curl. Especially openssl has to be updated to 1.1.0 as in 1.0.2 it has some serious 
+threading issues
+
+
 
 ## Building for iOS
 ```
